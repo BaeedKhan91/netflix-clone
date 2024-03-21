@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
-    /* font-family: poppins ,sans-serif; */
+    font-family: poppins ,sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -19,10 +19,10 @@ body{
     position: relative;
 }
 
-div .box {
+.main .box {
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
@@ -50,7 +50,7 @@ nav button {
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -58,12 +58,13 @@ nav button {
     color: white;
     position: relative;
     gap: 20px;
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .hero> :nth-child(1) {
+    font-family: poppins ,sans-serif;
     text-align: center;
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 48px;
 }
 
@@ -77,4 +78,30 @@ nav button {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(44, 42, 42);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.main input{
+    padding: 3px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    
 }
