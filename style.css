@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
-    font-family: poppins ,sans-serif;
+    font-family: poppins, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -62,7 +62,7 @@ nav button {
 }
 
 .hero> :nth-child(1) {
-    font-family: poppins ,sans-serif;
+    font-family: poppins, sans-serif;
     text-align: center;
     font-weight: bolder;
     font-size: 48px;
@@ -79,11 +79,13 @@ nav button {
     font-weight: 400;
     font-size: 20px;
 }
-.sepration{
+
+.sepration {
     height: 7px;
     background-color: rgb(44, 42, 42);
 }
-.btn{
+
+.btn {
     padding: 3px 8px;
     font-weight: 400;
     border-radius: 4px;
@@ -92,7 +94,8 @@ nav button {
     border: 1px solid rgba(255, 255, 255, 0.438);
     cursor: pointer;
 }
-.btn-red{
+
+.btn-red {
     background-color: red;
     color: white;
     padding: 3px 24px;
@@ -100,13 +103,15 @@ nav button {
     font-size: 20px;
     font-weight: 400;
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
-.main input{
+
+.main input {
     padding: 7px 101px 8px 14px;
     color: white;
     border-radius: 4px;
@@ -114,13 +119,15 @@ nav button {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
-.btn-red-sm{
+
+.btn-red-sm {
     background-color: red;
     color: white;
     margin-left: 10px;
-    
+
 }
-.first{
+
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -128,11 +135,24 @@ nav button {
     color: white;
     justify-content: center;
     align-items: center;
+}
+
+.secimg {
     position: relative;
 }
-.secimg img{
+
+.secimg img {
     width: 30vw;
+    position: relative;
+    z-index: 10;
 }
-.secimg video{
+
+.secimg video {
     position: absolute;
+    top: 51px;
+    right: 0;
+
 }
+
+
+/* 1:08:18 */
