@@ -120,3 +120,19 @@ nav button {
     margin-left: 10px;
     
 }
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+}
+.secimg video{
+    position: absolute;
+}
