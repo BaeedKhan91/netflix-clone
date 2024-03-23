@@ -138,6 +138,13 @@ nav button {
     color: white;
     justify-content: center;
     align-items: center;
+
+}
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    
 }
 
 .secimg {
@@ -154,6 +161,7 @@ nav button {
     position: absolute;
     top: 50px;
     right: 1px;
+    width: 555px;
 }
 .first > div{
     display: flex;
@@ -207,6 +215,13 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     color: white;
 
+}
+@media screen and (max-width: 1000px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        color: white;
+    }
 }
 footer .questions{
     padding: 34px 0;
