@@ -176,5 +176,11 @@ section.first > div :nth-child(2){
 }
 .faqbox{
     background-color:gray ;
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    max-width: 45vw;
+    margin: 34px auto;
+    /* max-height: 10px; */
 }
 
