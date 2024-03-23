@@ -11,12 +11,13 @@ body {
 }
 
 .main {
-    background-image: url(./assets/images/bg.jpg);
+    background-image: url(./assets/images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
     height: 70vh;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .main .box {
@@ -151,8 +152,8 @@ nav button {
 
 .secimg video {
     position: absolute;
-    top: 51px;
-    right: 0;
+    top: 50px;
+    right: 1px;
 }
 .first > div{
     display: flex;
@@ -181,7 +182,7 @@ section.first > div :nth-child(2){
 }
 .faqbox{
     font-size: 24px;
-    transition: all 1s ease-out;
+    transition: all 0.3s ease-out;
     background-color:#2d2d2d;
     display: flex;
     padding: 24px;
@@ -192,7 +193,7 @@ section.first > div :nth-child(2){
     /* max-height: 10px; */
 }
 .faqbox:hover{
-    background-color: #414141;
+    background-color: rgba(65, 65, 65, 1);
 
 }
 footer{
@@ -218,4 +219,7 @@ footer .questions{
     gap: 23px;
     display: flex;
     flex-direction: column;
+}
+.last{
+    text-align: center;
 }
