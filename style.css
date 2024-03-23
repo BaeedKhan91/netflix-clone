@@ -83,6 +83,8 @@ nav button {
 .sepration {
     height: 7px;
     background-color: rgb(44, 42, 42);
+    position: relative;
+    z-index: 20;
 }
 
 .btn {
@@ -142,7 +144,7 @@ nav button {
 }
 
 .secimg img {
-    width: 30vw;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
@@ -174,13 +176,46 @@ section.first > div :nth-child(2){
     color: white;
     padding: 34px;
 }
+.faqbox svg{
+    filter: invert(1);
+}
 .faqbox{
-    background-color:gray ;
+    font-size: 24px;
+    transition: all 1s ease-out;
+    background-color:#2d2d2d;
     display: flex;
     padding: 24px;
     justify-content: space-between;
-    max-width: 45vw;
+    max-width: 60vw;
     margin: 34px auto;
+    cursor: pointer;
     /* max-height: 10px; */
 }
+.faqbox:hover{
+    background-color: #414141;
 
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 12px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: white;
+
+}
+footer .questions{
+    padding: 34px 0;
+}
+.footer a{
+    font-size: 15px;
+    color: white;
+}
+.footer-item{
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+}
